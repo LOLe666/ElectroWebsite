@@ -1,0 +1,501 @@
+/*Imports*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&amp;display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&amp;display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&amp;display=swap');
+
+
+/*General*/
+
+html {
+    background-color: #131313;
+    user-select: none;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+/*Navbar*/
+
+nav {
+    background-color: #f3f0ccec;
+    padding: 20px 0 20px 0;
+    transition: 0.2s;
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+    margin-top: 10px;
+}
+
+#navtext {
+    color: #000000;
+    font-family: 'Aldrich';
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+}
+
+#navtext-div {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+
+
+/*Main*/
+
+#logo-main{
+    border-radius: 1000px;
+    margin: 30px auto 0 auto;
+    display: block;
+    border: solid #29292900 5px;
+    max-width: -webkit-fill-available;
+    max-height: 400px;
+}
+
+#logo-main1{
+    border-radius: 1000px;
+    margin: 30px auto 0 auto;
+    display: block;
+    border: solid #29292900 5px;
+    max-width: -webkit-fill-available;
+    max-height: 150px;
+}
+
+#name-main{
+    color: #e4e4e4;
+    font-family: "Black Ops One";
+    text-align: center;
+    font-size: 70px;
+}
+
+#main-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#main-buttons-2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#main-button-2 {
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #767986;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    font-family: "Aldrich";
+}
+
+
+#download-button {
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #5c5c5c;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    font-family: "Aldrich";
+}
+
+#main-button-2:hover {
+    transition: 0.5s;
+    filter: drop-shadow(2px 4px 10px #181a1d);
+    outline: none;
+}
+
+#main-button-2-1 {
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #767986;
+    border: none;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    font-family: "Aldrich";
+}
+
+#main-button-2-1:hover {
+    transition: 0.5s;
+    filter: drop-shadow(2px 4px 10px #181a1d);
+    outline: none;
+}
+
+#main-button-1 {
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #f3f0ccec;
+    color: #000000;
+    border: none;
+    transition: 0.5s;
+    outline: none;
+    font-weight: bold;
+    font-family: "Aldrich";
+}
+
+#main-button-1:hover {
+    transition: 0.5s;
+    filter: drop-shadow(2px 7px 3px #181a1d);
+    cursor: pointer;
+    outline: none;
+}
+
+#main-button-4 {
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #f96854;
+    color: #052d49;
+    border: none;
+    transition: 0.5s;
+    outline: none;
+    font-weight: bold;
+    font-family: "Aldrich";
+}
+
+#main-button-4:hover {
+    transition: 0.5s;
+    filter: drop-shadow(2px 7px 3px #181a1d);
+    cursor: pointer;
+    outline: none;
+}
+
+
+#main-button-3:hover {
+    transition: 0.5s;
+    filter: drop-shadow(2px 7px 3px #181a1d);
+    cursor: pointer;
+    outline: none;
+}
+
+/* BY CREPER92YT 
+www.creper92.tk*/
+
+#main-info {
+    font-family: "Bungee";
+    color: #ffffff;
+}
+
+#main-info {
+    font-family: "Bungee";
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center
+}
+
+
+#main-caution {
+    font-family: "Bungee";
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center
+}
+
+
+#main-info-1 {
+    text-align: left;
+    max-width: 50%;
+    margin-left: 300px;
+    font-size: 17px;
+}
+
+#main-info-2 {
+    float: right;
+    max-width: 50%;
+    margin-right: 300px;
+    font-size: 17px;
+}
+
+
+/*                   FOOTER                */
+
+
+footer {
+    border-top: solid #23272a 5px;
+    margin-top: 20px;
+}
+
+#footer-copyright {
+    text-align: center;
+    color: #99aab5;
+    font-family: "Aldrich";
+}
+
+#footer-credits {
+    text-align: right;
+    color: white
+}
+
+a {
+    color: unset;
+    outline: none;
+    text-decoration: none;
+}
+
+
+
+#maintext{
+    color: #a1a1a1;
+    font-family: "Aldrich";
+    text-transform: uppercase;
+    font-family: "Aldrich";
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+#developers-img {
+    border-radius: 150px;
+    border: none;
+    margin: 0 auto 0 auto;
+}
+
+#name1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: "Aldrich";
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
+#namedescription{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: "Aldrich";
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+
+/*Pages*/
+
+#page-grid {
+color: sas;
+}
+
+#page-minigrid {
+    background-color: #979571;
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#page-name { 
+    color: rgb(0, 0, 0);
+    font-family: "Aldrich";
+    font-weight: 500;
+    text-align: center;
+    font-size: 50px
+}
+
+#page-desc {
+    color: #303030;
+    font-family: "Aldrich";
+    text-align: center;
+    font-size: 25px
+}
+
+#page-button-2{
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+    margin-top: 10px;
+    background-color: #f3f0ccec;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: "Aldrich";
+    font-size: 3ד0px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*News*/
+#news-grid {
+    color: sas;
+    }
+    
+    #news-minigrid {
+        background-color: #475966;
+        border-radius: 10px;
+        padding: 10px 30px 10px 30px;
+        margin-top: 50px;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+    
+    #news-name {
+        color: white;
+        font-family: "Aldrich";
+        font-weight: 500;
+        text-align: center;
+        font-size: 50px
+    }
+    
+    #news-desc {
+        color: #99aab5;
+        font-family: "Aldrich";
+        text-align: center;
+        font-size: 25px
+    }
+    
+    #news-button-1 {
+        width: 200px;
+        height: 50px;
+        border-radius: 40px;
+        background-color: #767986;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        font-weight: bold;
+        font-family: "Aldrich";
+        font-size: 20px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+
+    #news-time {
+        color: #bfc8ce;
+        font-family: "Arial";
+        text-align: center;
+        font-size: 15px
+    }
+
+
+
+/*Commands*/
+#command-grid {
+    color: sas;
+    }
+    
+    #command-minigrid {
+        background-color: #49613a;
+        border-radius: 10px;
+        padding: 10px 30px 10px 30px;
+        margin-top: 20px;
+        margin-left: 500px;
+        margin-right: 500px;
+    }
+
+    #command-minigrid1 {
+        background-color: #35462a;
+        border-radius: 10px;
+        padding: 10px 30px 10px 30px;
+        margin-top: 10px;
+        margin-left: 500px;
+        margin-right: 500px;
+    }
+    
+    #command-name {
+        color: white;
+        font-family: "Aldrich";
+        font-weight: 500;
+        text-align: center;
+        font-size: 30px
+    }
+        
+        #command-desc {
+        color: #99aab5;
+        font-family: "Aldrich";
+        text-align: center;
+        font-size: 15px
+    }
+
+
+
+    #command-time {
+        color: #bfc8ce;
+        font-family: "Arial";
+        text-align: center;
+        font-size: 15px
+    }
+
+
+
+/*Crew*/
+
+#crew-grid {
+    margin: auto;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+
+    #crew-grade {
+        font-size: 50px;
+        text-transform: uppercase;
+        font-family: "Aldrich";
+        font-weight: bold;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    #crew-name {
+        color: #ffffff;
+        font-family: "Aldrich";
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+/*Download*/
+#download{
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+    margin-top: 10px;
+    background-color: #78a9c0;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: "Aldrich";
+    font-size: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#d-minigrid{
+    background-color: #5f8496;;
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+    margin-top: 10px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+#errortext{
+    color: #e4e4e4;
+    font-family: "Bungee";
+    text-align: center;
+    font-size: 100px;
+}
+
+
